@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
     </modules>
   </component>
