@@ -1,6 +1,7 @@
 package com.cuiyq.jdbc;
 
 import com.mysql.jdbc.Driver;
+import org.junit.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -33,5 +34,9 @@ public class JdbcTest {
 
         statement.close();
         connect.close();
+    }
+    @Test
+    public void test() {
+        System.out.println(1 % 3);
     }
 }
