@@ -10,30 +10,31 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../jar/jstl-1.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/standard.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/gson-2.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/gson-2.2.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/junit-4.12.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/dom4j-1.6.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/druid-1.1.9.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/c3p0-0.9.1.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/ValidateCode.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/kaptcha-2.3.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/fastjson-1.1.22.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/commons-io-1.3.2.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/hamcrest-core-1.3.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/commons-dbutils-1.4.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/commons-logging-1.1.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/commons-beanutils-1.8.0.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/commons-fileupload-1.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/mysql-connector-java-5.1.49.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/taglibs-standard-impl-1.2.1.jar!/" />
-          <root url="jar://$MODULE_DIR$/../../../../jar/taglibs-standard-spec-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/jstl-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/jar/standard.jar!/" />
+          <root url="jar://$USER_HOME$/jar/gson-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/gson-2.2.4.jar!/" />
+          <root url="jar://$USER_HOME$/jar/junit-4.12.jar!/" />
+          <root url="jar://$USER_HOME$/jar/dom4j-1.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/druid-1.1.9.jar!/" />
+          <root url="jar://$USER_HOME$/jar/c3p0-0.9.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/jar/ValidateCode.jar!/" />
+          <root url="jar://$USER_HOME$/jar/kaptcha-2.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/jar/fastjson-1.1.22.jar!/" />
+          <root url="jar://$USER_HOME$/jar/commons-io-1.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/jar/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/jar/commons-dbutils-1.4.jar!/" />
+          <root url="jar://$USER_HOME$/jar/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/commons-beanutils-1.8.0.jar!/" />
+          <root url="jar://$USER_HOME$/jar/commons-fileupload-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/mysql-connector-java-5.1.49.jar!/" />
+          <root url="jar://$USER_HOME$/jar/taglibs-standard-impl-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/jar/taglibs-standard-spec-1.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jar1" level="project" />
   </component>
 </module>
