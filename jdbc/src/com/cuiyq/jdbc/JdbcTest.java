@@ -38,5 +38,6 @@ public class JdbcTest {
     @Test
     public void test() {
         System.out.println(1 % 3);
+        System.out.println(1 % 3);
     }
 }
