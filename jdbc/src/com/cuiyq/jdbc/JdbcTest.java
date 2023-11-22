@@ -34,6 +34,7 @@ public class JdbcTest {
 
         statement.close();
         connect.close();
+        System.out.println("执行完毕");
     }
     @Test
     public void test() {
