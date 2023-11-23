@@ -6,4 +6,6 @@ package class_.jdbcDemo02.com.tentact.pojo;
  * describe:
  */
 public class Student {
+
+
 }

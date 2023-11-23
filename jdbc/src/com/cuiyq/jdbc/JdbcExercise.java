@@ -50,7 +50,6 @@ public class JdbcExercise {
             System.out.println(id + " \t" + name + " \t" + sex + " \t" + borndate + " \t" + phone);
         }
 
-
 //        int rows = statement.executeUpdate(sql2);
 //        System.out.println(rows > 0 ? "成功" : "失败");
         System.out.println("执行完成");
