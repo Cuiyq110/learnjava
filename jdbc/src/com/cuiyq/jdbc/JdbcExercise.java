@@ -39,7 +39,7 @@ public class JdbcExercise {
         Statement statement = connection.createStatement();
         int rows = statement.executeUpdate(sql2);
         System.out.println(rows > 0 ? "成功" : "失败");
-
+        System.out.println("执行完成");
 
         connection.close();
 
