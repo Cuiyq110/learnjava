@@ -1,5 +1,8 @@
 package com.cuiyq.jdbc.utils;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.*;
 import java.util.Properties;
 
@@ -21,15 +24,20 @@ public class JDBCUtils {
     static {
 
         try {
-//       加载驱动
-            Class.forName(driver);
             Properties properties = new Properties();
+            properties.load(new FileInputStream("src//mysql.properties"));
 //        读取相关的值
             user = properties.getProperty("user");
             password = properties.getProperty("password");
             url = properties.getProperty("url");
             driver = properties.getProperty("driver");
+            //       加载驱动
+            Class.forName(driver);
         } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
