@@ -29,10 +29,6 @@ public class TrainTicket {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        else {
-            return false;
-        }
+        return this == obj;
     }
 }

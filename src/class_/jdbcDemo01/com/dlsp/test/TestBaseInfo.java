@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class TestBaseInfo {
 	
-	private BaseInfoDao dao = new BaseInfoDaoImpl();
+	private final BaseInfoDao dao = new BaseInfoDaoImpl();
 	
 
 	@Test

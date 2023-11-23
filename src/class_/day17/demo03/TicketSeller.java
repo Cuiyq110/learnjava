@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class TicketSeller {
 
-    private static List<TrainTicket> pool = new ArrayList<TrainTicket>();
+    private static final List<TrainTicket> pool = new ArrayList<TrainTicket>();
 
     //初始化票池
     static {

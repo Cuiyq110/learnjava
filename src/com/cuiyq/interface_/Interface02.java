@@ -17,9 +17,9 @@ public class Interface02 {
 }
 
 interface DBinterface {
-    public void connect();
+    void connect();
 
-    public void close();
+    void close();
 }
 
 class MysqlDB implements DBinterface {
@@ -49,12 +49,12 @@ class OracleDB implements DBinterface {
 }
 
 interface IB {
-    public void h1();
+    void h1();
 
 }
 
 interface IC {
-    public void f1();
+    void f1();
 }
 
 class Pig  implements ID,IB,IC {

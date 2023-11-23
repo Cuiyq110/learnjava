@@ -27,7 +27,7 @@ public class HomeWork01 {
 }
 
 class PrivateTest {
-    private String name = "hellokitty";
+    private final String name = "hellokitty";
     //默认无参构造器
     public String getName() {
         return name;

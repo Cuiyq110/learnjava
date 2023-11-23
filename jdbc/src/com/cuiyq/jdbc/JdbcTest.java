@@ -18,7 +18,7 @@ public class JdbcTest {
     public static void main(String[] args) throws Exception{
 
             Driver driver = new Driver();
-            String url = "jdbc:mysql://120.55.125.187:3306/my_db?seUnicode=truue&characterEncoding=utf-8";
+            String url = "jdbc:mysql://120.55.125.187:3306/jdbc?seUnicode=truue&characterEncoding=utf-8";
             Properties properties = new Properties();
             properties.setProperty("user", "root");
             properties.setProperty("password", "Cyq20020107.");

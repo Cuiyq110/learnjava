@@ -3,6 +3,7 @@ package com.cuiyq.jdbc;
 import java.sql.Connection;
 
 import com.mysql.jdbc.Driver;
+import org.junit.Test;
 
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -15,10 +16,11 @@ import java.util.Properties;
  */
 @SuppressWarnings("all")
 public class Jdbc01 {
-    public static void main(String[] args) throws Exception {
+    @Test
+    public  void connect() throws Exception {
 
         Driver driver = new Driver();
-        String url = "jdbc:mysql://120.55.125.187:3306/my_db?seUnicode=truue&characterEncoding=utf-8";
+        String url = "jdbc:mysql://120.55.125.187:3306/jdbc?seUnicode=truue&characterEncoding=utf-8";
            Properties properties = new Properties();
            properties.setProperty("user", "root");
            properties.setProperty("password", "Cyq20020107.");

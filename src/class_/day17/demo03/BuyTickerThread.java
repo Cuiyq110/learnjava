@@ -3,10 +3,10 @@ package class_.day17.demo03;
 public class BuyTickerThread implements Runnable{
 
     //乘客
-    private Passenger passenger;
+    private final Passenger passenger;
 
     //车票
-    private TrainTicket t;
+    private final TrainTicket t;
 
     public BuyTickerThread(Passenger passenger, TrainTicket t) {
         this.passenger = passenger;

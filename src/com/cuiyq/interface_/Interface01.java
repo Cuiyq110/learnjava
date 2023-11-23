@@ -17,8 +17,8 @@ public class Interface01 {
 
 interface UsbInterface {
     //人为规定方法
-    public void start();
-    public void end();
+    void start();
+    void end();
 }
 
 class Camera implements UsbInterface {
