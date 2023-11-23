@@ -49,12 +49,14 @@ public class Statement01 {
         String driver = properties.getProperty("driver");
 
         Class.forName(driver);
-
+//        创建连接
         Connection connection = DriverManager.getConnection(url, user, password);
         Statement statement = connection.createStatement();
+//        执行sql
         String sql = "select name,pwd from admin where name ='"
                 + admin_name + "' AND + pwd = '" + admin_pwd + "'";
         ResultSet resultSet = statement.executeQuery(sql);
+//        返回结果集进行判断
         if (resultSet.next()) {
             System.out.println("登录成功");
             System.out.println(resultSet.getString("name"));
