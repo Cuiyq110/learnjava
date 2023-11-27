@@ -22,7 +22,7 @@ public class JDBCUtils {
 
     //    static代码块中初始化
     static {
-
+        System.out.println("1111");
         try {
             Properties properties = new Properties();
             properties.load(new FileInputStream("src//mysql.properties"));

@@ -56,7 +56,10 @@ public class JDBCUtils_Use {
 
 
     public static void main(String[] args) {
-        new JDBCUtils_Use().testDML_update("王武",13);
+       // new JDBCUtils_Use().testDML_update("王武",13);
+        JDBCUtils_Use jdbcUtilsUse = new JDBCUtils_Use();
+        System.out.println(JDBCUtils.getConnection());
+        jdbcUtilsUse.testDML_insert();
     }
     public  void testDML_update(String name,int id) { //update
 //        得到连接
@@ -67,11 +70,12 @@ public class JDBCUtils_Use {
 //        建立连接，创建prepareStatement对象
         try {
             connection = JDBCUtils.getConnection();
+            System.out.println(connection);
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1,name);
             preparedStatement.setInt(2,id);
-            preparedStatement.executeUpdate();
-        } catch (SQLException e) {
+           preparedStatement.executeUpdate();
+        } catch (Exception e) {
             e.printStackTrace();
         } finally {
 //            关闭连接
@@ -82,7 +86,7 @@ public class JDBCUtils_Use {
     /**
      * 更新数据
      */
-    @Test
+
     public void testDML_insert() { //insert
 //        得到连接
         Connection connection = null;
@@ -93,7 +97,7 @@ public class JDBCUtils_Use {
         try {
             connection = JDBCUtils.getConnection();
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(1,"张三");
+            preparedStatement.setString(1,"111");
             preparedStatement.setString(2,"男");
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
