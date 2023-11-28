@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/jar/jstl-1.2.jar!/" />
@@ -35,8 +35,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="jar1" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../../jar/jstl-1.2.jar!/" />
