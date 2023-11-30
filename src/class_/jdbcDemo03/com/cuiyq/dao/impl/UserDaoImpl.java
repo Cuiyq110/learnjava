@@ -94,7 +94,6 @@ public class UserDaoImpl extends BaseDao implements UserDao {
         Object object[] = {user.getUpwd()};
         return super.executeUpdate(sql,object);
     }
-
     @Override
     public int deleteUser(int id) {
         String sql = "delete from user where id = ?";
