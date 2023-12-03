@@ -54,19 +54,20 @@ public class C3p0 {
 
 //    方式2 使用配置文件模板来完成
     @Test
-    public void testC3p0_02() throws Exception{
+//
+public void testC3p0_02() throws Exception{
 //        创建一个数据源对象
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource("c3p0");
 
 //        测试5000次连接mysql
         long start = System.currentTimeMillis();
         System.out.println("开始执行2222");
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 5000000; i++) {
             Connection connection = comboPooledDataSource.getConnection();
             connection.close();
         }
         long end = System.currentTimeMillis();
-        System.out.println("c3p0的第二种方式：" + (end - start)); //c3p0的第二种方式：3845
+        System.out.println("c3p0的第二种方式：" + (end - start)); //c3p0的第二种方式：3845  五十万：13186 五百万：40050
 
     }
 
