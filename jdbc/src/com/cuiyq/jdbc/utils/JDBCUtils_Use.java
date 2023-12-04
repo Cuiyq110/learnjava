@@ -30,6 +30,7 @@ public class JDBCUtils_Use {
 
         try {
             connection = JDBCUtils.getConnection();
+            System.out.println("connection的运行类型：" + connection.getClass());
             System.out.println(connection.getClass());
             preparedStatement = connection.prepareStatement(sql);
 //            preparedStatement.setInt(1,2);
