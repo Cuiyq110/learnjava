@@ -4,17 +4,21 @@ import com.cuiyq.jdbc.utils.javabean.Actor;
 import org.junit.Test;
 
 import java.sql.*;
-import java.util.ArrayList;
-
-/**
- * @author Cuiyq
- * @version 1.0
- * describe: 使用土方法把resulset封装成list集合
- */
-@SuppressWarnings("all")
-public class JDBCUtilsByDruid_Use {
-
-    //    使用土方法来解决ResultSet=封装=》Arraylist
+import japrivate int id;
+    // 名字
+    private String name;
+    // 类型id
+    private int typeId;
+    // 血量
+    private int health;
+    // 爱心
+    private int love;
+    // 生日
+    private Date birthday;
+    // 拥有者id
+    private String ownerId;
+    // 商店id
+    private String storeId;raylist
     @Test
     public void testSelectToArrayList() {
         System.out.println("使用druid方式完成");
