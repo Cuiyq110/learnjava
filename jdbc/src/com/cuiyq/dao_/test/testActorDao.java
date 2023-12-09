@@ -26,7 +26,7 @@ public class testActorDao {
             System.out.println(actor);
         }
 
-//        2.查询单行记录
+/*//        2.查询单行记录
         Actor actor = actorDao.querySingle("select * from actor where id = ?", Actor.class, 2);
         System.out.println("---单行记录查询结果---");
         System.out.println(actor);
@@ -39,7 +39,7 @@ public class testActorDao {
 //        4.执行dml
         int update = actorDao.update("insert into actor(id,name,sex) values(null,?,?)", "大哥", "女");
         System.out.println("---update执行结果---");
-        System.out.println(update > 0 ? "执行成功" : "未对表进行操作");
+        System.out.println(update > 0 ? "执行成功" : "未对表进行操作");*/
 
     }
 }

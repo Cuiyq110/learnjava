@@ -9,6 +9,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        System.out.println(ID.n1);
+//        System.out.println(ID.n1);
+        System.out.println("你好");
     }
 }
