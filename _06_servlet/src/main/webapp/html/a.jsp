@@ -12,18 +12,18 @@
 </head>
 <body>
 <form
-        action="http://localhost:8080/_06_servlet_Web_exploded/HelloServlet" method="get">
+        action="http://localhost:8080/_06_servlet_war_exploded/HelloServlet" method="get">
     <input type="submit" value="HelloServlet"/>
 </form>
 <form
-        action="http://localhost:8080/_06_servlet_Web_exploded/HelloServlet2" method="get">
+        action="http://localhost:8080/_06_servlet_war_exploded/HelloServlet2" method="get">
     <input type="submit" value="HelloServlet2"/>
 </form>
 <form
-        action="http://localhost:8080/_06_servlet_Web_exploded/HelloServlet3" method="get">
+        action="http://localhost:8080/_06_servlet_war_exploded/HelloServlet3" method="get">
     <input type="submit" value="HelloServlet3"/>
 </form>
-<form action="http://localhost:8080/_06_servlet_Web_exploded/ContextServlet1" method="get">
+<form action="http://localhost:8080/_06_servlet_war_exploded/ContextServlet1" method="get">
     <input type="submit" value="ContextServlet1"/>
 </form>
 </body>
