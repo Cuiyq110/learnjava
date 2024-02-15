@@ -1,7 +1,6 @@
 package main.java.com.cuiyq.dao;
 
-
-import com.cuiyq.utils.JDBCUtilsByDruid;
+import main.java.com.cuiyq.utils.JDBCUtilsByDruid;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;

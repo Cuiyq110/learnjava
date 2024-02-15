@@ -1,5 +1,4 @@
-package com.cuiyq.utils;
-
+package main.java.com.cuiyq.utils;
 
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
@@ -25,7 +24,9 @@ public class JDBCUtilsByDruid {
     static {
         Properties properties = new Properties();
         try {
-            properties.load(new FileInputStream("src\\druid.properties"));
+
+
+            properties.load(new FileInputStream(JDBCUtilsByDruid.class.getClassLoader().getResource("jdbc.properties").getPath()));
             ds = DruidDataSourceFactory.createDataSource(properties);
         } catch (Exception e) {
             e.printStackTrace();
