@@ -1,4 +1,4 @@
-package com.cuiyq.utils;
+package main.java.com.cuiyq.utils;
 
 
 /**
